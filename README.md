@@ -16,8 +16,9 @@ This project was completed as a technical assignment.
 * **Backend**: Python, Flask, FFmpeg
 * **Frontend**: React, JavaScript, Axios, Hls.js
 * **Database**: MySQL
-
----
+   - FFmpeg (for stream handling)
+   - HLS.js (for video playback)
+> Note: While the original task mentioned MongoDB, I chose to use MySQL for this implementation due to its simplicity and suitability for structured overlay data. The system can be adapted to MongoDB if required.
 
 ## Setup and Installation
 
@@ -53,9 +54,7 @@ This project was completed as a technical assignment.
 2.  **Install dependencies**: `npm install`
 3.  **Run the application**: `npm start`
     * The React app will open on `http://localhost:3000`.
-
----
-
+      
 ## API Documentation
 
 The backend provides the following endpoints:
